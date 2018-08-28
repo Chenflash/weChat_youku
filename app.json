@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/videos/videos",
+    "pages/channel/channel",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "腾讯视频",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":50
+  },
+  "tabBar": {
+    "color": "#404040",
+    "selectedColor": "red",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/tabbar/index.png",
+      "selectedIconPath": "images/tabbar/index_focus.png"
+    },
+    {
+      "pagePath": "pages/videos/videos",
+      "text": "短视频",
+      "iconPath":"images/tabbar/videos.png",
+      "selectedIconPath":"images/tabbar/videos_focus.png"
+    },
+    
+    {
+      "pagePath": "pages/channel/channel",
+      "text": " 频道",
+      "iconPath": "images/tabbar/channel.png",
+      "selectedIconPath": "images/tabbar/channel_focus.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": " 我的",
+      "iconPath": "images/tabbar/mine.png",
+      "selectedIconPath": "images/tabbar/mine_focus.png"
+    }],
+    "position":"bottom"
+  },
+  "debug":true
+}

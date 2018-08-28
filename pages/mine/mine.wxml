@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class=""> 
+  <image src="{{avatarUrl}}" class="slide-image" width="355" height="150"  bindtap='getViewImage'/>
+ <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+ <button bindtap='playVideo'>播放</button>
+  <button bindtap='pauseVideo'>暂停</button>
+<!--   
+ <button bindtap='getImage'> 点我 获取图像</button>
+ <button bindtap='openWebsocket'>开启连接</button>
+ <button bindtap='sendWebsocket'>发送连接</button>
+ <button bindtap='closeWebsocket'> 关闭连接</button> -->
+</view>

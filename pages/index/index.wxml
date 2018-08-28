@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="homeView">
+ 
+   <!--搜索-->
+    <view class='searchView'>
+      <icon type='search' color='#ff8800' size="20" class='icon' bindtap='searchs'></icon>
+      <text class='searchInput'>请输入片名、主演和导演</text>
+    </view>
+    <!--轮播图-->
+    <swiper indicator-dots="{{indicatorDots}}" class='swiperView' indicator-color="#fff"  circular="true"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item >
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+        <scroll-view class="goodView" scroll-x style="width: 100%">
+        <view class='scroll-view-item_H' wx:for="{{goodClassList}}">
+            <image src="{{item.gc_pic}}" class="gcPic"></image>  
+            <text class='gcName'>{{item.gc_name}}</text>
+        </view>
+      </scroll-view>
+
+</view>

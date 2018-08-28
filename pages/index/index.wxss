@@ -1,0 +1,66 @@
+.homeView{
+ width:100%;
+ margin:0rpx auto;
+}
+/*搜索*/
+.searchView{
+  display:flex;
+  flex-direction:row;
+  height:72rpx;
+  background-color:#fff;
+  margin:10rpx 0rpx;
+  align-items:center;
+
+}
+.icon{
+  margin-left: 10rpx;
+}
+.searchInput{
+  margin-left: 10rpx;
+  color:#999;
+}
+
+.swiperView{
+  width:100%;
+  height:400rpx;
+  overflow: hidden;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*
+*分类
+*/
+.viewClass{
+  height:200rpx;
+}
+.goodView{
+  display:flex;
+flex-direction:row;
+justify-content:flex-start;
+align-items:center;
+text-align:left;
+
+}
+.scroll-view-item_H {
+ height:200rpx;
+display:flex;
+flex-direction:column;
+color:#666;
+justify-content:center;
+align-items: center;
+}
+.gcPic{
+  width:90rpx;
+  height:90rpx;
+  border-radius:50%;
+
+}
+
+.gcName{
+   font-size: 28rpx;
+   padding-top:10rpx;
+}
